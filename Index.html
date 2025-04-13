@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guns N' Roses Merch</title>
+
+  <style>
+    .gnr-font {
+      font-family: 'Special Elite', serif;
+      font-size: 48px;
+      letter-spacing: 4px;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Special Elite', 'Rock Salt', cursive, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+
+    header {
+      background-color: #000;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #e50914;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #1f1f1f;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .hero {
+  background: url('https://upload.wikimedia.org/wikipedia/en/5/5c/GunsnRosesUseYourIllusion.jpg') no-repeat center center/cover;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+  font-size: 1.6rem;
+  color: #ffd700;
+}
+
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .product {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin-top: 1rem;
+      color: #ffd700;
+    }
+
+    .product .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #ffd700;
+      color: #121212;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .product .img-link {
+      display: block;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .product .img-link img {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #000;
+      color: #888;
+    }
+
+    /* 🌐 Mobile-specific tweaks */
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 1.2rem;
+      }
+
+    nav {
+    flex-direction: row; /* ✅ Keep it horizontal */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .products {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+      }
+
+      .product {
+        padding: 1rem 0.5rem;
+      }
+
+      .product .btn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+
+      .product h3 {
+        font-size: 1.1rem;
+      }
+
+      .product .img-link {
+        max-width: 100%;
+      }
+    }
+  
+@media (max-width: 768px) {
+  nav {
+    flex-direction: row; /* Keep nav horizontal on mobile */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="index.html" style="text-decoration: none; color: #e50914;">
+        Guns N' Roses Merch
+      </a>
+    </h1>
+  </header>
+  
+  <nav>
+    <a href="Index.html">Home</a>
+    <a href="Shop.HTML">Shop</a>
+    <a href="About.html">About</a>
+    <a href="Contact Us.html">Contact</a>
+  </nav>
+  
+  <section class="hero">
+    <h2>Official Slash & Axl Rose Miniatures and Accessories</h2>
+  </section>
+
+  <section class="products">
+    <!-- Axl Rose Figurine -->
+    <div class="product">
+      <a href="Axl.HTML" class="img-link">
+        <img src="Images/axl.jpg" alt="Axl Rose Figurine" />
+      </a>
+      <h3>Axl Rose Figurine</h3>
+      <a href="Axl.HTML" class="btn">View Product</a>
+    </div>
+
+    <!-- Slash Figurine -->
+    <div class="product">
+      <a href="Slash Figurine.html" class="img-link">
+        <img src="Images/slash.jpg" alt="Slash Figurine" />
+      </a>
+      <h3>Slash Figurine</h3>
+      <a href="Slash Figurine.html" class="btn">View Product</a>
+    </div>
+
+    <!-- Slash's Hat Replica -->
+    <div class="product">
+      <a href="Slash Hat.html" class="img-link">
+        <img src="Images/slash hat.jpg" alt="Slash's Hat" />
+      </a>
+      <h3>Slash's Hat Replica</h3>
+      <a href="Slash Hat.html" class="btn">View Product</a>
+    </div>
+
+    <!-- Les Paul Pendant -->
+    <div class="product">
+      <a href="Lespaul Pendant.html" class="img-link">
+        <img src="Images/lespaul pendant.jpg" alt="Les Paul Pendant" />
+      </a>
+      <h3>Les Paul Pendant</h3>
+      <a href="Lespaul Pendant.html" class="btn">View Product</a>
+    </div>
+
+    <!-- Les Paul Keychain -->
+    <div class="product">
+      <a href="Lespaul Keychain.html" class="img-link">
+        <img src="Images/lespaul keychain.jpg" alt="Les Paul Keychain" />
+      </a>
+      <h3>Les Paul Keychain</h3>
+      <a href="Lespaul Keychain.html" class="btn">View Product</a>
+    </div>
+  </section>
+  
+</body>
+</html>
